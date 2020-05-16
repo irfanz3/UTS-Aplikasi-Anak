@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">UTS Aplikasi Anak</string>
+    <string name="welcome_message">Ayah Bunda silahkan mengisi<br/>data anak di bawah ini</string>
+    <string name="age_required">*Umur diperlukan untuk rekomendasi waktu penggunaan handphone anak anda</string>
+
+    <string name="input_child_name">Nama Panggilan Anak</string>
+    <string name="input_child_name_placeholder">Isi dengan nama anak anda</string>
+    <string name="input_gender">Jenis Kelamin</string>
+    <string name="input_age">Umur Saat ini</string>
+    <string name="input_age_placeholder">contoh: 12</string>
+    <string name="gender_male">Laki-laki</string>
+    <string name="gender_female">Perempuan</string>
+
+    <string name="register">Daftar</string>
+    <string name="see_tutorial">Lihat Tutorial</string>
+    <string name="install_help">Bingung saat membuat kesepakatan instalasi<br/>dengan anak?</string>
+
+    <string name="congratulation">Yeay, Selamat ;)</string>
+    <string name="congratulation_body">Silahkan Gunakan Kode ini untuk Masuk Kedalam Aplikasi anak</string>
+</resources>

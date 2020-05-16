@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dimen24"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:padding="@dimen/dimen16"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:contentDescription="@string/app_name"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/dimen142"
+                android:layout_height="@dimen/dimen142"
+                android:src="@drawable/ic_welcome_parent" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="@dimen/dimen12"
+                android:gravity="center"
+                android:textSize="@dimen/font24"
+                android:text="@string/congratulation"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/userInfo"
+                android:textSize="@dimen/font18"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/welcome_message"
+                android:textSize="@dimen/font18"
+                android:text="@string/congratulation_body"/>
+
+            <Button
+                android:id="@+id/registerCode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                style="@style/CodeButton"
+                android:text="XXXXX"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/font16"
+        android:layout_marginTop="@dimen/dimen36"
+        android:text="@string/install_help"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen48"
+        android:paddingEnd="@dimen/dimen48"
+        android:paddingRight="@dimen/dimen48"
+        android:paddingLeft="@dimen/dimen48"
+        android:text="@string/see_tutorial"
+        android:layout_gravity="center"
+        style="@style/CommonButton" />
+
+</LinearLayout>
